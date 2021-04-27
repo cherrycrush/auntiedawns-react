@@ -9,17 +9,10 @@ import Facilities from './Facilities'
 
 const App = () => {
   return (
-    <>
-      <Router>
-        <div>
-          <Home />
-          <Nav />
-          <Route exact path='/beach' component={Beach}/>
-          <Route exact path='/contact' component={Contact}/>
-          <Route exact path='/facilities' component={Facilities}/>
-        </div>
-      </Router>
-    </>
+      <div>
+        <Home />
+        <Nav />
+      </div>
   )
 }
 
