@@ -9,9 +9,9 @@ import Facilities from './Facilities'
 
 const App = () => {
   return (
-      <div>
-        <Home />
+    <div>        
         <Nav />
+        <Home />
       </div>
   )
 }
