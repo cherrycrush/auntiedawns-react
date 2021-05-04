@@ -8,8 +8,4 @@ server.use(express.json())
 server.use(express.static(path.join(__dirname, './public')))
 server.use(cors('*'))
 
-server.get('/', (req, res) => {
-  res.send('hello world')
-})
-
 module.exports = server
