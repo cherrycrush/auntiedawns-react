@@ -20,7 +20,7 @@ main {
 	width: 50rem;
 }
 
-.container {
+.content {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
