@@ -3,7 +3,10 @@ import React from 'react'
 function Contact () {
   return (
     <>
-      <main className="container">
+      <div className="head-container">
+        <h1>Auntie Dawn's Place - Hot Water Beach</h1>
+      </div>
+      <main className="content">
         <h2>Contact Details</h2>
         <table>
           <tr>

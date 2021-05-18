@@ -1,5 +1,5 @@
 import React from 'react'
-import { HashRouter as Router, Route } from 'react-router-dom'
+import { HashRouter as Router, Route, Switch } from 'react-router-dom'
 
 import Home from './Home'
 import Nav from './Nav'
@@ -11,11 +11,13 @@ const App = () => {
   return (
     <div>
       <Router >
-        <Nav />
-        <Route exact path={'/'} component={Home}/>
-        <Route exact path={'/beach'} component={Beach} />
-        <Route exact path={'/facilities'} component={Facilities} />
-        <Route exact path={'/contact'} component={Contact} />
+        <Route path={'/'} component={Nav} />
+        <Switch>
+          <Route exact path={'/'} component={Home} />
+          <Route exact path={'/beach'} component={Beach} />
+          <Route exact path={'/facilities'} component={Facilities} />
+          <Route exact path={'/contact'} component={Contact} />
+        </Switch>
       </Router>
     </div>
   )
