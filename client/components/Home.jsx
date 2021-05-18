@@ -17,7 +17,7 @@ function Home () {
         <p>
           [Note: Life-guards are on duty only during the peak (summer) season when swimming should be between the flags at ALL times, "the possibility of strong ocean currents" should be taken into account.]
         </p>
-        <div className="content">
+        <div>
           <img className="image" src="img/top.jpg" alt="Beach photo" />
         </div>
       </main>

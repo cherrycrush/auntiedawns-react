@@ -34,6 +34,13 @@ export default class Navbar extends Component {
           >
             <Link to={'/facilities'}>Facilities</Link>
           </Menu.Item>
+          <Menu.Item
+            name='Contact'
+            active={activeItem === 'Contact'}
+            onClick={this.handleItemClick}
+          >
+            <Link to={'/contact'}>Contact</Link>
+          </Menu.Item>
         </Menu>
       </Container>
     )
