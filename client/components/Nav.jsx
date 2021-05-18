@@ -1,35 +1,39 @@
 import { Link } from 'react-router-dom'
 import React, { Component } from 'react'
-import { Menu, Segment } from 'semantic-ui-react'
+import { Menu } from 'semantic-ui-react'
 
-export default class MenuExampleInvertedSecondary extends Component {
-  state = { activeItem: 'home' }
+export default class Navbar extends Component {
+  state = {}
 
   handleItemClick = (e, { name }) => this.setState({ activeItem: name })
 
-  render() {
+  render () {
     const { activeItem } = this.state
 
     return (
-      <Segment>
-        <Menu pointing secondary>
-          <Menu.Item
-            name='home'
-            active={activeItem === 'home'}
-            onClick={this.handleItemClick}
-          />
-          <Menu.Item
-            name='messages'
-            active={activeItem === 'messages'}
-            onClick={this.handleItemClick}
-          />
-          <Menu.Item
-            name='friends'
-            active={activeItem === 'friends'}
-            onClick={this.handleItemClick}
-          />
-        </Menu>
-      </Segment>
+      <Menu stackable>
+        <Menu.Item
+          name='Home'
+          active={activeItem === 'Home'}
+          onClick={this.handleItemClick}
+        >
+          <Link to={'/'}>Home</Link>
+        </Menu.Item>
+        <Menu.Item
+          name='Beach'
+          active={activeItem === 'Beach'}
+          onClick={this.handleItemClick}
+        >
+          <Link to={'/beach'}>Beach</Link>
+        </Menu.Item>
+        <Menu.Item
+          name='Facilities'
+          active={activeItem === 'Facilities'}
+          onClick={this.handleItemClick}
+        >
+          <Link to={'/facilities'}>Facilities</Link>
+        </Menu.Item>
+      </Menu>
     )
   }
 }
