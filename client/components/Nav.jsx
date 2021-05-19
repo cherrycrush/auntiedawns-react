@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import React, { Component } from 'react'
-import { Container, Menu } from 'semantic-ui-react'
+import { Container, Menu, Image } from 'semantic-ui-react'
 
 export default class Navbar extends Component {
   state = {}
@@ -40,6 +40,13 @@ export default class Navbar extends Component {
             onClick={this.handleItemClick}
           >
             <Link to={'/contact'}>Contact</Link>
+          </Menu.Item>
+          <Menu.Item
+            name='Facebook'
+            active={activeItem === 'Facebook'}
+            onClick={this.handleItemClick}
+          >
+            <Image src='img/facebook.png' alt='Visit our Facebook' href='https://www.facebook.com/auntiedawnsbedandbreakfast'/>
           </Menu.Item>
         </Menu>
       </Container>
