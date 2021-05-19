@@ -1,4 +1,13 @@
-# A starter webpack project for React
+# Auntie Dawns Place
+
+This is a personal project of mine that I wanted to do for some family friends of mine.
+They have a static HTML website that I thought would be fun to port over into a React based web app.
+
+- To start, clone the repo, in your terminal, ```npm install```
+- ```npm run dev``` in the terminal
+- Open your browser and visit ```localhost:3000```
+
+<!-- # A starter webpack project for React
 
 This is a starter project that uses webpack to transpile and bundle ES6 React code. To use, consider these steps:
 
@@ -24,5 +33,4 @@ and in the other:
 ```sh
 npm run server
 ```
-The client will be available on http://localhost:8080 and the server on http://localhost:3000. Note that you will still need to manage CORS between the two, as they are on different ports.
-
+The client will be available on http://localhost:8080 and the server on http://localhost:3000. Note that you will still need to manage CORS between the two, as they are on different ports. -->
