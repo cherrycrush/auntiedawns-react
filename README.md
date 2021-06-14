@@ -1,6 +1,6 @@
 # Auntie Dawns Place
 
-This is a personal project of mine that I wanted to do for some family friends of mine.
+This is a personal project that I wanted to do for some family friends of mine.
 They have a static HTML website that I thought would be fun to port over into a React based web app.
 
 - To start, clone the repo, in your terminal, ```npm install```
