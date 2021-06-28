@@ -1,12 +1,14 @@
 import React from 'react'
 import { Image } from 'semantic-ui-react'
 
-function Home () {
+export default function Home () {
   return (
     <>
       <div className="head-container">
         <h1>Auntie Dawn's Place - Hot Water Beach</h1>
       </div>
+      <Image className='img' src='/img/top.jpg' size='huge' fluid bordered alt='Beach photo' />
+      <br></br>
       <main className="content">
         <h2 className="content">Welcome to Auntie Dawns Place!</h2>
         <p>
@@ -19,11 +21,8 @@ function Home () {
           [Note: Life-guards are on duty only during the peak (summer) season when swimming should be between the flags at ALL times, "the possibility of strong ocean currents" should be taken into account.]
         </p>
         <div>
-          <Image src='/img/top.jpg' size='large' fluid bordered alt='Beach photo' />
         </div>
       </main>
     </>
   )
 }
-
-export default Home
