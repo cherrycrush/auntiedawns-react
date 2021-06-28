@@ -10,7 +10,8 @@ export default function Home () {
       <Image className='img' src='/img/top.jpg' size='huge' fluid bordered alt='Beach photo' />
       <br></br>
       <main className="content">
-        <h2 className="content">Welcome to Auntie Dawns Place!</h2>
+        <h2>Welcome to Auntie Dawns Place!</h2>
+        <br></br>
         <p>
           Hot Water Beach is a beautiful surf beach. At low tide (searchable through 2025), hot water bubbles up at a particular place in the sand and you dig yourself a "hot pool" to bathe in. When the water is too hot, take a swim in the Pacific!
         </p>

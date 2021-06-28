@@ -17,15 +17,14 @@ main {
   flex-direction: column;
   flex: 1;
   margin-top: 2rem;
-  width: 57rem;
+  width: 60rem;
 }
 
 .content {
   display: flex;
   flex-direction: row;
-  background: lightsteelblue;
   flex-wrap: wrap;
-  padding: 2rem;
+  padding: 1rem;
   margin: 0 auto;
 }
 
@@ -37,9 +36,17 @@ main {
 
 /* paragraph, heading text styles */
 h1 {
+  color: steelblue;
+  text-shadow: 3px 3px darkblue;
   text-align: center;
   font-family: "Kaushan Script", cursive;
   font-size: 3.5rem;
+}
+
+h2 {
+  border-bottom: solid steelblue 2px;
+  color: steelblue;
+  width: 100%;
 }
 
 h3 {
