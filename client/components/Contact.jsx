@@ -7,7 +7,7 @@ function Contact () {
         <h1>Auntie Dawn's Place - Hot Water Beach</h1>
       </div>
       <main className="content">
-        <h2>Contact Details</h2>
+        <h2 className="content">Contact Details</h2>
         <table>
           <tr>
             <td id="thead">Hosts</td>
